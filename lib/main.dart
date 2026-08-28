@@ -1,5 +1,6 @@
+// Pietro Rennó e Vinicius Montuani N23 e 29
 import 'package:flutter/material.dart';
-import 'screens/treasure_hunt_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +23,7 @@ class CacaAoTesouroApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Roboto',
       ),
-      home: const TreasureHuntScreen(),
+      home: const SplashScreen(),
     );
   }
 }
